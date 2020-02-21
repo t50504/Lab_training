@@ -22,4 +22,5 @@ ___As a programmer,you should learn work on linux!___
 - 其他請自行多研究，還有很多實用語法。
 - exercise1:
 請創建test1、test2 folder，並進入test1創建practice.txt內容隨意。複製此檔案命名為practice2.txt，並將practice2 move到test2 folder。
-
+- exercise2:
+將連結中[]的.py檔載下來，並透過filezila傳到你的linux資料夾。執行此python檔案。
