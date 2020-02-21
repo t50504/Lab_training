@@ -20,6 +20,6 @@ ___As a programmer,you should learn work on linux!___
 - cp a b: 複製檔案a為檔案b。
 - mv a b: 移動檔案a到位置b。
 - 其他請自行多研究，還有很多實用語法。
-- exercise:
+- exercise1:
 請創建test1、test2 folder，並進入test1創建practice.txt內容隨意。複製此檔案命名為practice2.txt，並將practice2 move到test2 folder。
 
