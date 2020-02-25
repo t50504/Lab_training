@@ -29,7 +29,7 @@ ___As a programmer,you should learn work on linux!___
 ---
 ### Python in data processing
 - python是容易上手的高階程式語言，套件多、應用層面廣。處理資料簡單方便。是一種直譯式語言，在執行時由機器動態逐行直譯成機器看得懂的語言，因此較直覺；比起常見的C/C++等編譯式語言，是透過預先定義資料型別等等，再由編譯器轉為機器看得懂的語言來說，效能會較差，但對於非底層開發者來說，python在應用端的表現已經非常足夠。
-- 而在大量數據處理來說，須熟悉基本python語法、numpy套件、pandas套件。就可以應付大部分的工作!下面附上莫煩的教學影片及範例，新手建議可以使用anaconda+jupyter notebook環境來實作練習影片內容!:
-python基本語法教學:https://morvanzhou.github.io/tutorials/python-basic/basic/ 時間不足僅需看到13.3小節。
+- 而在大量數據處理來說，須熟悉基本python語法、numpy套件、pandas套件。就可以應付大部分的工作!下面附上莫煩的教學影片及範例，新手建議可以使用anaconda+jupyter notebook環境來實作練習影片內容!:<br />
+python基本語法教學:https://morvanzhou.github.io/tutorials/python-basic/basic/ 時間不足僅需看到13.3小節。<br />
 python numpy&pandas套件教學:https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/
 - 以下將提供四個處理大量數據的作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
