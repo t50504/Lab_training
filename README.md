@@ -35,5 +35,5 @@ python numpy&pandas套件教學:https://morvanzhou.github.io/tutorials/data-mani
 - 以下將提供四個處理大量數據的作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
 - exercise1:
 file link:https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing
-執行程式找出包含在chrI 11300~11500區段內的chip-chip ratio</br>
-找出包含在chrXI 168000~168600區段內的chip-chip ratio</br>
+執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio</br>
+找出包含在chrXI 168000-168600區段內的chip-chip ratio</br>
