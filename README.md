@@ -1,10 +1,11 @@
 # Welcome Cosbi lab !
 --- 
 ## Skill you should have:
-- Linux system operation.
+- [Linux system operation.](#Linux system operation)
 - python in data processing.
 - Web framework(Django or ASP).
 - Web front end language (html,css,javascripts).
+---
 ### Linux system operation
 #### Introduction
 - 實驗室伺服器及外面公司伺服器大多都是linux系統，比起windows有以下好處:
