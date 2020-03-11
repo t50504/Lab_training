@@ -5,7 +5,10 @@
 - python in data processing.
 - Web framework(Django or ASP).
 - Web front end language (html,css,javascripts).
-
+## Extra ( to be a good ITer)
+- Learn to note on HackMD.
+- Learn to use git or github.推薦教學網誌:http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/
+- Can practice program skill on leetcode.
 ### Linux system operation
 #### Introduction
 - 實驗室伺服器及外面公司伺服器大多都是linux系統，比起windows有以下好處:
@@ -39,4 +42,6 @@ file link:https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
 - exercise2:
-file link:
+file link:https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing<br />
+1. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。<br />
+
