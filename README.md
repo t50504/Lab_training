@@ -7,7 +7,7 @@
 - Web front end language (html,css,javascripts).
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
-- Learn to use git or github.推薦教學網誌:<a herf='http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/'>http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/</a>
+- Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 - Can practice program skill on leetcode.
 ### Linux system operation
 #### Introduction
@@ -33,15 +33,13 @@ ___As a programmer,you should learn work on linux!___
 ### Python in data processing
 - python是容易上手的高階程式語言，套件多、應用層面廣。處理資料簡單方便。是一種直譯式語言，在執行時由機器動態逐行直譯成機器看得懂的語言，因此較直覺；比起常見的C/C++等編譯式語言，是透過預先定義資料型別等等，再由編譯器轉為機器看得懂的語言來說，效能會較差，但對於非底層開發者來說，python在應用端的表現已經非常足夠。
 - 而在大量數據處理來說，須熟悉基本python語法、numpy套件、pandas套件。就可以應付大部分的工作!下面附上莫煩的教學影片及範例，新手建議可以使用anaconda+jupyter notebook環境來實作練習影片內容!:<br />
-python基本語法教學:https://morvanzhou.github.io/tutorials/python-basic/basic/ 時間不足僅需看到13.3小節。<br />
-python numpy&pandas套件教學:https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/
+[python基本語法教學](https://morvanzhou.github.io/tutorials/python-basic/basic/) 時間不足僅需看到13.3小節。<br />
+[python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
 - 以下將提供四個處理大量數據的作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
-- <font color='#0000dd'>exercise1</font>
-file link:https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing<br />
+- [exercise1 filelink](https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing)<br />
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
-- <font color='#0000dd'>exercise2</font>
-file link:https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing<br />
+- [exercise2 fileline](https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing)<br />
 1. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。<br />
 
