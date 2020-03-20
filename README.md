@@ -25,9 +25,9 @@ ___As a programmer,you should learn work on linux!___
 - cp a b: 複製檔案a為檔案b。
 - mv a b: 移動檔案a到位置b。
 - 其他請自行多研究，還有很多實用語法。
-- exercise1:
+- <font color='#0000dd'>exercise1</font>:
 請創建test1、test2 folder，並進入test1創建practice.txt內容隨意。複製此檔案命名為practice2.txt，並將practice2 move到test2 folder。
-- exercise2:
+- <font color='#0000dd'>exercise2</font>:
 將連結中[]的.py檔載下來，並透過filezila傳到你的linux資料夾。執行此python檔案。
 
 ### Python in data processing
@@ -36,12 +36,12 @@ ___As a programmer,you should learn work on linux!___
 python基本語法教學:https://morvanzhou.github.io/tutorials/python-basic/basic/ 時間不足僅需看到13.3小節。<br />
 python numpy&pandas套件教學:https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/
 - 以下將提供四個處理大量數據的作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
-- <font color='#0000dd'>exercise1</font>:
+- <font color='#0000dd'>exercise1</font>
 file link:https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing<br />
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
-- exercise2:
+- <font color='#0000dd'>exercise2</font>
 file link:https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing<br />
 1. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。<br />
 
