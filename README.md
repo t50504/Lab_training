@@ -36,7 +36,7 @@ ___As a programmer,you should learn work on linux!___
 python基本語法教學:https://morvanzhou.github.io/tutorials/python-basic/basic/ 時間不足僅需看到13.3小節。<br />
 python numpy&pandas套件教學:https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/
 - 以下將提供四個處理大量數據的作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
-- exercise1:
+- <font color='#0000dd'>exercise1</font>:
 file link:https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing<br />
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
