@@ -7,7 +7,7 @@
 - Web front end language (html,css,javascripts).
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
-- Learn to use git or github.推薦教學網誌:http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/
+- Learn to use git or github.推薦教學網誌:<a herf='http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/'>http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/</a>
 - Can practice program skill on leetcode.
 ### Linux system operation
 #### Introduction
