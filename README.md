@@ -16,7 +16,7 @@
 ___As a programmer,you should learn work on linux!___
 - 伺服器中分為管理者與使用者，管理者就是天神，可以對伺服器做任何事。使用者則權限有限，僅對自己帳號下的資料夾有百分百權限。
 - 在管理者創建帳號給使用者後，就可以透過pietty(putty)等ssh連線工具及filezila檔案傳輸工具，遠端連到伺服器並在linux系統下工作及檔案傳輸。
-
+- Recommended doc:[鳥哥的linux私房菜](http://linux.vbird.org/)
 #### basic operation
 - mkdir/rm -r:創建/刪除 資料夾。
 - cd、cd..:進入退出資料夾。
@@ -40,6 +40,7 @@ ___As a programmer,you should learn work on linux!___
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
-- [exercise2 fileline](https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing)<br />
-1. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。<br />
+- [exercise2 filelink](https://drive.google.com/file/d/1HOhuA-f3UB8wYcFdcfp5Pnb9hIeSkLDc/view?usp=sharing)<br />
+1. 給予[輸入檔]()，裡面包含一群輸入基因(feature name)，請將不在檔案7185中的基因顯示出來。
+2. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。<br />
 
