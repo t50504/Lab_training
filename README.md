@@ -5,6 +5,7 @@
 - python in data processing.
 - Web framework(Django or ASP).
 - Web front end language (html,css,javascripts).
+- Mysql application.
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
 - Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
@@ -44,4 +45,15 @@ ___As a programmer,you should learn work on linux!___
 1. 給予[輸入檔](https://drive.google.com/file/d/1PQw64uJRBR_DhHXFeP-FviEP1YoWDp7b/view?usp=sharing)，裡面包含一群輸入基因(feature name)，使用者輸入檔名後，請將不在檔案7185中的基因顯示出來。
 2. 將Feature name欄位與standard gene name 做出name-id對照表，可供使用者輸入name或id，輸出對應的id及name。以及其MW欄位值還有te欄位值<br />
 
+- [exercise3 filelink1](https://drive.google.com/file/d/1rG6Zxgwa19EzkKdNHDGvZk9HkFYbAJAW/view?usp=sharing)<br />
+[exercise3 filelink2](https://drive.google.com/file/d/1YT7ONUzKMRNBBys-RSHbqkJYCP6fKQ7A/view?usp=sharing)<br />
+Notice. 這題不容易，請保重
+1. 請將檔案一的piRNA seq進行反轉並補序(ATCG->TAGC)，輸出一個新欄位。
+2. 檔案一包含piRNA與mRNA配對資訊,remain seq欄位是很長的mRNA中的一段片段，RNA_pos欄位就是此片段在mRNA中的位置。請將欄位RNA id與檔案二的mRNA sequence原檔案對照，就能知道完整mRNA序列。現在要實現一個算分公式，是將配對到的mRNA片段前後延伸20個位置，並將反轉補序過的piRNA進去掃，每次移動一個位置，並找出最高分的發生在mRNA中的哪段位置。
+3. 算分公式:10 - 7*(# of non-GU mismatch in seed) - 1.5*(# of GU
+mismatch in seed) - 2*(# of non-GU mismatch in non-seed) - 1.5*(# of
+GU mismatch in non-seed) 。
+where seed region is position 2-7,non-seed region is position 8-21,position 1 not in consider.
+
+4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
 
