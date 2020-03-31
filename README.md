@@ -3,8 +3,8 @@
 ## Skill you should have:
 - Linux system operation.
 - python in data processing.
-- Web framework(Django or ASP).
 - Web front end language (html,css,javascripts).
+- Web framework(Django or ASP).
 - Mysql application.
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
@@ -56,4 +56,14 @@ GU mismatch in non-seed) 。
 where seed region is position 2-7,non-seed region is position 8-21,position 1 not in consider.
 
 4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
-
+### Web frontend language
+- Nice tutorial: w3school
+#### HTML
+- 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃
+[HTML Tutorial](https://www.w3schools.com/html/default.asp)，'至少'看到HTML Forms的部分。
+#### CSS
+- 網頁的外貌，用來排版、裝飾HTML元素，詳細教學請啃
+[CSS Tutorial](https://www.w3schools.com/css/default.asp)，'至少'看到CSS Navigation Bar的部分。
+並請額外看Flexbox部分，是比較新的網頁CSS排版技術。
+- <font color='#0000dd'>exercise1</font>
+刻出自我介紹的靜態網頁，須包含三張照片並排、照片的背景區要淺灰色(隨意，不用自己的照片)，並且內容條列式、加註重點，並且附上自己臉書的連結。所有內容須置中。
