@@ -54,8 +54,8 @@ Notice. 這題不容易，請保重
 mismatch in seed) - 2*(# of non-GU mismatch in non-seed) - 1.5*(# of
 GU mismatch in non-seed) 。
 where seed region is position 2-7,non-seed region is position 8-21,position 1 not in consider.
-
 4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
+
 ### Web frontend language
 - Nice tutorial: w3school
 #### HTML
@@ -67,3 +67,10 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 並請額外看Flexbox部分，是比較新的網頁CSS排版技術。
 - <font color='#0000dd'>exercise1</font>
 刻出自我介紹的靜態網頁，須包含三張照片並排、照片的背景區要淺灰色(隨意，不用自己的照片)，並且內容條列式、加註重點，並且附上自己臉書的連結。所有內容須置中。
+#### Javascript
+- 網頁的靈魂，使網頁具有互動性，並操作html dom元件，前端網頁的好壞，很大部分取決於js寫的好不好，跟java沒有關係!!，詳細教學請啃[JavaScript Tutorial](https://www.w3schools.com/js/default.asp)，這是一套完整的程式語言，隨著網路發達、網頁發展非常需要會寫js的人才，能全部看完最好。
+- 額外補充1:AJAX技術，這是碩論網站必須用到的技巧，也是現在各大網頁都有用的技巧，上手需一段時間，有額外時間可以多練習。AJAX就是網頁非同步技術，在使用者操作時，不會一直重新更新整個網頁，而是僅改變使用者操作的部分，可以聯想GMAIL,在點信件時，並不會整個頁面刷新，而是只有內容區域更動。<br />
+技術原理是利用JS語言，寫一隻程式在伺服器接收請求之前先獲取請求，並由這支程式將預先向伺服器請求的資訊回應給使用者的瀏覽器，如此達到不用頻繁向伺服器請求及響應的目的，增快網頁效能。
+- 額外補充2:JQuery是基於JS所開發出來的套件，使用方便有效率、但有辦不到的功能還是要靠js刻出來，所以可斟酌使用但不必過度依賴。
+- 額外補充3:現在因應快速開發網頁需求，有許多JS框架誕生，讓開發者只要會使用框架就能讓網頁具備強大功能，如React.js、vue.js、angular.js，有興趣可以自學，輕量級且上手較快、較年輕的框架是中國人開發的vue.js，可以先從此上手。
+#### Conclusion
