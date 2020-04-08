@@ -10,7 +10,8 @@
 - Learn to note on HackMD.
 - Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 - Can practice program skill on leetcode.
-<h2 id='linux'>Linux system operation</h2>
+<h2 id='linux'>Linux system operation</h2><br/>
+
 #### Introduction
 - 實驗室伺服器及外面公司伺服器大多都是linux系統，比起windows有以下好處:
 開源、多用戶多任務、穩定及高效、安全。
@@ -36,7 +37,8 @@ ___As a programmer,you should learn work on linux!___
 - 當啟動一個新的虛擬環境，可以理解重新套用了一份配置檔，在虛擬環境內的配置都是編寫這份專屬於此虛擬環境的配置檔。所以請養成好習慣，對自己的專案做好環境管理。
 - <font color='#0000dd'>exercise3</font>:
 請創建project_A 與project_B兩個虛擬環境要有不同的Python版本，並在A裝套件numpy,B裝套件pandas。
-<h2 id='python-p'>Python in data processing</h2>
+<h2 id='python-p'>Python in data processing</h2><br/>
+
 - python是容易上手的高階程式語言，套件多、應用層面廣。處理資料簡單方便。是一種直譯式語言，在執行時由機器動態逐行直譯成機器看得懂的語言，因此較直覺；比起常見的C/C++等編譯式語言，是透過預先定義資料型別等等，再由編譯器轉為機器看得懂的語言來說，效能會較差，但對於非底層開發者來說，python在應用端的表現已經非常足夠。
 - 而在大量數據處理來說，須熟悉基本python語法、numpy套件、pandas套件。就可以應付大部分的工作!下面附上莫煩的教學影片及範例，新手建議可以使用anaconda+jupyter notebook環境來實作練習影片內容!:<br />
 [python基本語法教學](https://morvanzhou.github.io/tutorials/python-basic/basic/) 時間不足僅需看到13.3小節。<br />
@@ -61,7 +63,7 @@ GU mismatch in non-seed) 。
 where seed region is position 2-7,non-seed region is position 8-21,position 1 not in consider.
 4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
 
-<h2 id='front'>Web frontend language</h2>
+<h2 id='front'>Web frontend language</h2><br/>
 - Nice tutorial: w3school
 #### HTML
 - 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃
@@ -88,7 +90,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 - <font color='#0000dd'>exercise2</font>
 承第一題，請從以下效果挑出三種來實現在你的靜態網頁上。
 ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
-<h2 id='django'>Web framework(Django)</h2>
+<h2 id='django'>Web framework(Django)</h2></br>
 
 #### 簡單上手
 - 安裝好虛擬環境後，首先利用pip安裝Django，注意請安裝1.11版本，因目前研究室伺服器還沒升級到2.x版本，顧會有相容性問題。
