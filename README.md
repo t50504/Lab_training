@@ -6,6 +6,7 @@
 - [Web front end language (html,css,javascripts).](#front)
 - [Web framework(Django or ASP).](#django)
 - MySQL application.
+
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
 - Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
@@ -19,6 +20,7 @@ ___As a programmer,you should learn work on linux!___
 - 伺服器中分為管理者與使用者，管理者就是天神，可以對伺服器做任何事。使用者則權限有限，僅對自己帳號下的資料夾有百分百權限。
 - 在管理者創建帳號給使用者後，就可以透過pietty(putty)等ssh連線工具及filezila檔案傳輸工具，遠端連到伺服器並在linux系統下工作及檔案傳輸。
 - Recommended doc:[鳥哥的linux私房菜](http://linux.vbird.org/)
+
 #### basic operation
 - mkdir/rm -r:創建/刪除 資料夾。
 - cd、cd..:進入退出資料夾。
@@ -31,6 +33,7 @@ ___As a programmer,you should learn work on linux!___
 請創建test1、test2 folder，並進入test1創建practice.txt內容隨意。複製此檔案命名為practice2.txt，並將practice2 move到test2 folder。
 - <font color='#0000dd'>exercise2</font>:
 將連結中[]的.py檔載下來，並透過filezila傳到你的linux資料夾。執行此python檔案。
+
 #### different environment
 - 創建虛擬環境非常重要，如果有很多人用同一台伺服器，可以避免環境跟套件亂七八糟；若自己有好幾個project，也可以用不同的虛擬環境，套件跟設定僅針對單一project即可。
 - [virtualenvwrapper tutorial](https://www.itread01.com/content/1498915331.html)
@@ -66,9 +69,11 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 <h2 id='front'>Web frontend language(3week-4.5week)</h2><br/>
 
 - Nice tutorial: w3school
+
 #### HTML
 - 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃
 [HTML Tutorial](https://www.w3schools.com/html/default.asp)，'至少'看到HTML Forms的部分。
+
 #### CSS
 - 網頁的外貌，用來排版、裝飾HTML元素，詳細教學請啃
 [CSS Tutorial](https://www.w3schools.com/css/default.asp)，'至少'看到CSS Navigation Bar的部分。
@@ -77,6 +82,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 刻出自我介紹的靜態網頁，須包含三張照片並排、照片的背景區要淺灰色(隨意，不用自己的照片)，並且內容條列式、加註重點，並且附上自己臉書的連結。所有內容須置中。
 
 - 額外補充1:牽涉到設計的部分很需要美感，所以大多工程師都會先選擇套用Bootstrap模板，再修改細部，有空可以練習怎麼使用bootstrap。
+
 #### Javascript
 - 網頁的靈魂，使網頁具有互動性，並操作html dom元件，前端網頁的好壞，很大部分取決於js寫的好不好，跟java沒有關係!!，詳細教學請啃[JavaScript Tutorial](https://www.w3schools.com/js/default.asp)，這是一套完整的程式語言，隨著網路發達、網頁發展非常需要會寫js的人才，能全部看完最好。<br />
 
@@ -86,6 +92,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 - 額外補充2:JQuery是基於JS所開發出來的套件，使用方便有效率、但有辦不到的功能還是要靠js刻出來，所以可斟酌使用但不必過度依賴。<br/>
 
 - 額外補充3:現在因應快速開發網頁需求，有許多JS框架誕生，讓開發者只要會使用框架就能讓網頁具備強大功能，如React.js、vue.js、angular.js，有興趣可以自學，輕量級且上手較快、較年輕的框架是中國人開發的vue.js，可以先從此上手。<br/>
+ 
 #### Conclusion
 - css跟js當然都可以放在html檔裡面，但這並不是推薦的做法，會造成邏輯跟排版紊亂。比較好的做法是將css跟js檔案分開成獨立檔案，並由html引入即可。
 - <font color='#0000dd'>exercise2</font>
@@ -99,6 +106,7 @@ ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
 - 開啟專案後會看到資料夾內有很多隻py檔，其中manage.py是協助管理網站的腳本，可以直接python manage.py runserver來啟動網頁。
 - setting.py則是網站中的各種配置，urls.py則讓你的網站後台能正確解析網址、送到對的函式處理。
 - 剩餘的詳細資訊可以再去看下方教材。
+
 #### MTV架構介紹
 - Model(資料庫互動與存取)
 透過將資料庫(mysql、sqlite...)模型化，可直接透過python語言操作資料庫。
@@ -111,6 +119,7 @@ ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
 2. Django依據URL configuration分配至對應的View function。
 3. View進行資料庫操作或其他演算法運算，並回傳HTTP response物件。
 4. 瀏覽器依據Http response以及模板設定，顯示網頁畫面。
+
 #### Exercise
 [Tutorial and exercise](https://djangogirlstaipei.gitbooks.io/django-girls-taipei-tutorial/)，此網站手把手帶你做出一個範例，也會把一些觀念講得更清楚，請跟著他的教學做出範例，培養基本概念。
 
