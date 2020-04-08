@@ -64,6 +64,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
 
 <h2 id='front'>Web frontend language</h2><br/>
+
 - Nice tutorial: w3school
 #### HTML
 - 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃
