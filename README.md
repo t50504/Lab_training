@@ -5,7 +5,7 @@
 - python in data processing.
 - Web front end language (html,css,javascripts).
 - Web framework(Django or ASP).
-- Mysql application.
+- MySQL application.
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
 - Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
@@ -30,7 +30,12 @@ ___As a programmer,you should learn work on linux!___
 請創建test1、test2 folder，並進入test1創建practice.txt內容隨意。複製此檔案命名為practice2.txt，並將practice2 move到test2 folder。
 - <font color='#0000dd'>exercise2</font>:
 將連結中[]的.py檔載下來，並透過filezila傳到你的linux資料夾。執行此python檔案。
-
+#### different environment
+- 創建虛擬環境非常重要，如果有很多人用同一台伺服器，可以避免環境跟套件亂七八糟；若自己有好幾個project，也可以用不同的虛擬環境，套件跟設定僅針對單一project即可。
+- [virtualenvwrapper tutorial](https://www.itread01.com/content/1498915331.html)
+- 當啟動一個新的虛擬環境，可以理解重新套用了一份配置檔，在虛擬環境內的配置都是編寫這份專屬於此虛擬環境的配置檔。所以請養成好習慣，對自己的專案做好環境管理。
+- <font color='#0000dd'>exercise3</font>:
+請創建project_A 與project_B兩個虛擬環境要有不同的Python版本，並在A裝套件numpy,B裝套件pandas。
 ### Python in data processing
 - python是容易上手的高階程式語言，套件多、應用層面廣。處理資料簡單方便。是一種直譯式語言，在執行時由機器動態逐行直譯成機器看得懂的語言，因此較直覺；比起常見的C/C++等編譯式語言，是透過預先定義資料型別等等，再由編譯器轉為機器看得懂的語言來說，效能會較差，但對於非底層開發者來說，python在應用端的表現已經非常足夠。
 - 而在大量數據處理來說，須熟悉基本python語法、numpy套件、pandas套件。就可以應付大部分的工作!下面附上莫煩的教學影片及範例，新手建議可以使用anaconda+jupyter notebook環境來實作練習影片內容!:<br />
@@ -67,10 +72,42 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 並請額外看Flexbox部分，是比較新的網頁CSS排版技術。
 - <font color='#0000dd'>exercise1</font>
 刻出自我介紹的靜態網頁，須包含三張照片並排、照片的背景區要淺灰色(隨意，不用自己的照片)，並且內容條列式、加註重點，並且附上自己臉書的連結。所有內容須置中。
+
+- 額外補充1:牽涉到設計的部分很需要美感，所以大多工程師都會先選擇套用Bootstrap模板，再修改細部，有空可以練習怎麼使用bootstrap。
 #### Javascript
-- 網頁的靈魂，使網頁具有互動性，並操作html dom元件，前端網頁的好壞，很大部分取決於js寫的好不好，跟java沒有關係!!，詳細教學請啃[JavaScript Tutorial](https://www.w3schools.com/js/default.asp)，這是一套完整的程式語言，隨著網路發達、網頁發展非常需要會寫js的人才，能全部看完最好。
+- 網頁的靈魂，使網頁具有互動性，並操作html dom元件，前端網頁的好壞，很大部分取決於js寫的好不好，跟java沒有關係!!，詳細教學請啃[JavaScript Tutorial](https://www.w3schools.com/js/default.asp)，這是一套完整的程式語言，隨著網路發達、網頁發展非常需要會寫js的人才，能全部看完最好。<br />
+
 - 額外補充1:AJAX技術，這是碩論網站必須用到的技巧，也是現在各大網頁都有用的技巧，上手需一段時間，有額外時間可以多練習。AJAX就是網頁非同步技術，在使用者操作時，不會一直重新更新整個網頁，而是僅改變使用者操作的部分，可以聯想GMAIL,在點信件時，並不會整個頁面刷新，而是只有內容區域更動。<br />
-技術原理是利用JS語言，寫一隻程式在伺服器接收請求之前先獲取請求，並由這支程式將預先向伺服器請求的資訊回應給使用者的瀏覽器，如此達到不用頻繁向伺服器請求及響應的目的，增快網頁效能。
-- 額外補充2:JQuery是基於JS所開發出來的套件，使用方便有效率、但有辦不到的功能還是要靠js刻出來，所以可斟酌使用但不必過度依賴。
-- 額外補充3:現在因應快速開發網頁需求，有許多JS框架誕生，讓開發者只要會使用框架就能讓網頁具備強大功能，如React.js、vue.js、angular.js，有興趣可以自學，輕量級且上手較快、較年輕的框架是中國人開發的vue.js，可以先從此上手。
+技術原理是利用JS語言，寫一隻程式在伺服器接收請求之前先獲取請求，並由這支程式將預先向伺服器請求的資訊回應給使用者的瀏覽器，如此達到不用頻繁向伺服器請求及響應的目的，增快網頁效能。<br/>
+
+- 額外補充2:JQuery是基於JS所開發出來的套件，使用方便有效率、但有辦不到的功能還是要靠js刻出來，所以可斟酌使用但不必過度依賴。<br/>
+
+- 額外補充3:現在因應快速開發網頁需求，有許多JS框架誕生，讓開發者只要會使用框架就能讓網頁具備強大功能，如React.js、vue.js、angular.js，有興趣可以自學，輕量級且上手較快、較年輕的框架是中國人開發的vue.js，可以先從此上手。<br/>
 #### Conclusion
+- css跟js當然都可以放在html檔裡面，但這並不是推薦的做法，會造成邏輯跟排版紊亂。比較好的做法是將css跟js檔案分開成獨立檔案，並由html引入即可。
+- <font color='#0000dd'>exercise2</font>
+承第一題，請從以下效果挑出三種來實現在你的靜態網頁上。
+ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
+### Web framework(Django)
+
+#### 簡單上手
+- 安裝好虛擬環境後，首先利用pip安裝Django，注意請安裝1.11版本，因目前研究室伺服器還沒升級到2.x版本，顧會有相容性問題。
+- 接著利用django-admin.py startproject [name] 來開始一個自訂名字的專案。
+- 開啟專案後會看到資料夾內有很多隻py檔，其中manage.py是協助管理網站的腳本，可以直接python manage.py runserver來啟動網頁。
+- setting.py則是網站中的各種配置，urls.py則讓你的網站後台能正確解析網址、送到對的函式處理。
+- 剩餘的詳細資訊可以再去看下方教材。
+#### MTV架構介紹
+- Model(資料庫互動與存取)
+透過將資料庫(mysql、sqlite...)模型化，可直接透過python語言操作資料庫。
+- Template(模板)
+呈現html檔給使用者瀏覽器解析。
+- View(視圖)
+控制與整合的工作，從資料庫模型取出資料、將資料填入模板顯示在前端，常用函式做為後端的處理資料流跟渲染前端工作。
+- Django應用MTV架構處理request(使用者對伺服器端的請求)流程如下:
+1. 瀏覽器送出HTTP request。
+2. Django依據URL configuration分配至對應的View function。
+3. View進行資料庫操作或其他演算法運算，並回傳HTTP response物件。
+4. 瀏覽器依據Http response以及模板設定，顯示網頁畫面。
+#### Exercise
+[Tutorial and exercise](https://djangogirlstaipei.gitbooks.io/django-girls-taipei-tutorial/)，此網站手把手帶你做出一個範例，也會把一些觀念講得更清楚，請跟著他的教學做出範例，培養基本概念。
+
