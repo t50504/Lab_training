@@ -1,8 +1,8 @@
 # Welcome Cosbi lab !
 
 ## Skill you should have:
-- <a href='###Linux system operation'>Linux system operation.</a>
-- python in data processing.
+- [Linux system operation.](### Linux system operation)
+- [python in data processing.](### python in data processing)
 - Web front end language (html,css,javascripts).
 - Web framework(Django or ASP).
 - MySQL application.
