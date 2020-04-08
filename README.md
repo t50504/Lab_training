@@ -3,8 +3,8 @@
 ## Skill you should have:
 - [Linux system operation.](#linux)
 - [python in data processing.](#python-p)
-- Web front end language (html,css,javascripts).
-- Web framework(Django or ASP).
+- [Web front end language (html,css,javascripts).](#front)
+- [Web framework(Django or ASP).](#django)
 - MySQL application.
 ## Extra ( to be a good ITer)
 - Learn to note on HackMD.
@@ -61,7 +61,7 @@ GU mismatch in non-seed) 。
 where seed region is position 2-7,non-seed region is position 8-21,position 1 not in consider.
 4. 輸出答案須包含最高分數、發生位置、total-mismatch-number、GU_mismatch-position、xGU_mismatch-position。
 
-### Web frontend language
+### <h2 id='front'>Web frontend language</h2>
 - Nice tutorial: w3school
 #### HTML
 - 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃
@@ -88,7 +88,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 - <font color='#0000dd'>exercise2</font>
 承第一題，請從以下效果挑出三種來實現在你的靜態網頁上。
 ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
-### Web framework(Django)
+### <h2 id='django'>Web framework(Django)</h2>
 
 #### 簡單上手
 - 安裝好虛擬環境後，首先利用pip安裝Django，注意請安裝1.11版本，因目前研究室伺服器還沒升級到2.x版本，顧會有相容性問題。
