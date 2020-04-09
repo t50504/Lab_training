@@ -125,4 +125,4 @@ ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
 
 #### 補充
 - 該如何讓template中的html檔讀到分開的靜態檔案(css.js.img...)?
-<img src='/image/static_teach.PNG'>
+<img src='https://raw.githubusercontent.com/t50504/Lab_training/master/image/static_teach.PNG'>
