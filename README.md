@@ -123,3 +123,19 @@ ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
 #### Exercise
 [Tutorial and exercise](https://djangogirlstaipei.gitbooks.io/django-girls-taipei-tutorial/)，此網站手把手帶你做出一個範例，也會把一些觀念講得更清楚，請跟著他的教學做出範例，培養基本概念。
 
+#### 補充
+- 該如何讓template中的html檔讀到分開的靜態檔案(css.js.img...)?
+1. 創建static資料夾，裡面包含css.js.css資料夾，路徑確認好，在setting.py中加上
+```python
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+```
+2. 在要吃靜態檔案的html中，開頭放
+```html
+{% load staticfiles %}
+```
+3. 在<head>之間加入
+```html
+<link rel="stylesheet" href="{% static 'css/{filename}.css' %}">
+```
