@@ -125,17 +125,4 @@ ex: toggle、hover、彈出框後周圍暗掉、錨點...or others.
 
 #### 補充
 - 該如何讓template中的html檔讀到分開的靜態檔案(css.js.img...)?
-1. 創建static資料夾，裡面包含css.js.css資料夾，路徑確認好，在setting.py中加上
-```python
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
-```
-2. 在要吃靜態檔案的html中，開頭放
-```html
-{% load staticfiles %}
-```
-3. 在<head>之間加入
-```html
-<link rel="stylesheet" href="{% static 'css/{filename}.css' %}">
-```
+<img src='/image/static_teach.PNG'>
