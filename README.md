@@ -73,7 +73,7 @@ where seed region is position 2-7,non-seed region is position 8-21,position 1 no
 - [tutorial](https://hackmd.io/D96GGKwfQdGvRSH9cDjKxQ)
 - <font color='#0000dd'>exercise1</font>: 
 此檔案包含基因名字，[file link](https://drive.google.com/file/d/19YHgog42pO6M6uODqZqoo_I_RIjhM0zV/view?usp=sharing)
-1. 在https://wormbase.org/species/c_elegans/transcript/'genename'中爬取上面檔案中所有GENE NAME的sequence:spliced+UTR的序列
+1. 在https://wormbase.org/species/c_elegans/transcript/ +'genename'中爬取上面檔案中所有GENE NAME的sequence:spliced+UTR的序列
 2. 這些序列中會包含三段區域，呈現方式是 小寫字母:大寫字母:小寫字母，請找出區間的位置(即找出小寫變大寫、大寫變小寫的位置)
 ex: 2L52.1a.1 : 19,1302
 
