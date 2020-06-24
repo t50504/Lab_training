@@ -21,8 +21,19 @@ ___As a programmer,you should learn work on linux!___
 - 伺服器中分為管理者與使用者，管理者就是天神，可以對伺服器做任何事。使用者則權限有限，僅對自己帳號下的資料夾有百分百權限。
 - 在管理者創建帳號給使用者後，就可以透過pietty(putty)等ssh連線工具及filezila檔案傳輸工具，遠端連到伺服器並在linux系統下工作及檔案傳輸。
 - Recommended doc:[鳥哥的linux私房菜](http://linux.vbird.org/)
-
+#### Preparation
+##### For server(linux work station)
+- 檔案傳輸[Filezilla](https://filezilla-project.org/)
+- 終端介面[pietty](https://sites.google.com/view/pietty-project/download)
+##### For local (windows)
+- 新手入門整合介面[Anaconda](https://www.anaconda.com/products/individual)
+    - jupyter notebook
+    - python IDE:spyder
+    - vscode
+- ___demo in class___
 #### basic operation
+- ls :列出資料檔案
+    - ls -l,-a
 - mkdir/rm -r:創建/刪除 資料夾。
 - cd、cd..:進入退出資料夾。
 - vi:文件編輯器，後+filename則可以直接創建並編寫。
@@ -41,6 +52,11 @@ ___As a programmer,you should learn work on linux!___
 - 當啟動一個新的虛擬環境，可以理解重新套用了一份配置檔，在虛擬環境內的配置都是編寫這份專屬於此虛擬環境的配置檔。所以請養成好習慣，對自己的專案做好環境管理。
 - <font color='#0000dd'>exercise3</font>:
 請創建project_A 與project_B兩個虛擬環境要有不同的Python版本，並在A裝套件numpy,B裝套件pandas。
+
+#### Be a good user in lab linux work station.
+- command: df -h 確認掛載在home目錄的硬碟空間
+- command: htop(or top) 查看伺服器的硬體使用情形，評估自己的程式有沒有掛掉或不要占用過多CPU與MEM。否則會影響其他使用者
+
 <h2 id='python-p'>Python in data processing</h2><br/>
 
 - python是容易上手的高階程式語言，套件多、應用層面廣。處理資料簡單方便。是一種直譯式語言，在執行時由機器動態逐行直譯成機器看得懂的語言，因此較直覺；比起常見的C/C++等編譯式語言，是透過預先定義資料型別等等，再由編譯器轉為機器看得懂的語言來說，效能會較差，但對於非底層開發者來說，python在應用端的表現已經非常足夠。
