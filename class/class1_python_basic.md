@@ -5,14 +5,21 @@
 [python基本語法教學](https://morvanzhou.github.io/tutorials/python-basic/basic/) 時間不足僅需看到13.3小節。<br />
 - chapterA
     - print,operation,variable
-    - for,while
+    - for
     - if else
+    - while
     - function
+    - __homework__
+      透過函式方法，輸入四個學生的分數，依序輸出等第，若大於等於2A且沒有invalid則顯示pass!
+      100~90 A
+      89~70 B
+      69~50 C
+      其他 invalid
+      沒有限制要用幾個函式。
+- chapterB
     - global&local variable
     - read&write file
     - basic data structure -- tuple,list,dictionary
-
-- chapterB
     - input
     - continue&break
     - error handle(try,except)
@@ -23,8 +30,8 @@
     - read csv & introduce dataframe
     - select column & row
 - chapterD:numpy
-    -
-    -
+    - numpy array
+
 - 以下將提供一些作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
 - [exercise1 filelink](https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing)<br />
 __Requirement: Do not use package.__
