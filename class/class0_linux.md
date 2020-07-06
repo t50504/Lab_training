@@ -48,6 +48,7 @@ ___As a programmer,you should learn work on linux!___
 - 創建虛擬環境非常重要，如果有很多人用同一台伺服器，可以避免環境跟套件亂七八糟；若自己有好幾個project，也可以用不同的虛擬環境，套件跟設定僅針對單一project即可。
 - [virtualenvwrapper tutorial](https://www.itread01.com/content/1498915331.html)
 - 加上 --python=pythonX 指定創建使用python 版本。
+-  mkvirtualenv -p /usr/bin/pythonX [env name]
 - 當啟動一個新的虛擬環境，可以理解重新套用了一份配置檔，在虛擬環境內的配置都是編寫這份專屬於此虛擬環境的配置檔。所以請養成好習慣，對自己的專案做好環境管理。
 - <font color='#0000dd'>exercise3</font>:
 請創建project_A 與project_B兩個虛擬環境要有不同的Python版本，並在A裝套件numpy,B裝套件pandas。
