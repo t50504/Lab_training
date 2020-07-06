@@ -10,7 +10,7 @@
     - while
     - function
     - __homework__
-      透過函式方法，輸入四個學生的分數，依序輸出等第，若大於等於2A且沒有invalid則顯示pass!
+      透過函式方法，執行程式可輸入參數是四個學生的分數，依序輸出等第，若大於等於2A且沒有invalid則顯示pass!
     -  100-90 A,89-70 B,69-50 C,其他 invalid 。沒有限制要用幾個函式。
 - chapterB
     - global&local variable
