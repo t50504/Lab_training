@@ -19,7 +19,7 @@
     - continue&break
     - error handle(try,except) 
     - time and memory management (date:7/9)
-[python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
+- [python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
 - chapterC:pandas
     - package install and usage
     - read csv & introduce dataframe
