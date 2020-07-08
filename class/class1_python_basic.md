@@ -14,11 +14,10 @@
     -  100-90 A,89-70 B,69-50 C,其他 invalid 。沒有限制要用幾個函式。
 - chapterB
     - global&local variable
-    - read&write file
+    - read&write file (date:7/6)
     - basic data structure -- tuple,list,dictionary
-    - input
     - continue&break
-    - error handle(try,except)
+    - error handle(try,except) (date:7/8)
 
 [python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
 - chapterC:pandas
@@ -26,11 +25,11 @@
     - read csv & introduce dataframe
     - select column & row
 - chapterD:numpy
-    - numpy array
+    - numpy array 
 
 - 以下將提供一些作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
 - [exercise1 filelink](https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing)<br />
-__Requirement: Do not use package.__
+__Requirement: Do not use package.__(7/8 hw, to 0. or 1.)
 0. 去除前幾行資料及井字號行的資料，只留下chrI 90 91 0.557 ... 以下的資料。
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
