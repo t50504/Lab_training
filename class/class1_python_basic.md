@@ -17,8 +17,8 @@
     - read&write file (date:7/6)
     - basic data structure -- tuple,list,dictionary
     - continue&break
-    - error handle(try,except) (date:7/8)
-
+    - error handle(try,except) 
+    - time and memory management (date:7/9)
 [python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
 - chapterC:pandas
     - package install and usage
