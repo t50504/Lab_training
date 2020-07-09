@@ -29,9 +29,9 @@
 
 - 以下將提供一些作業，都完成後技術就足已應付大部分生物資料的處理(當然還要融會貫通)。
 - [exercise1 filelink](https://drive.google.com/file/d/1EzioIk9BDTVrimi0Vs6f0K-f8GJXM9E4/view?usp=sharing)<br />
-__Requirement: Do not use package.__(7/8 hw, to 0. or 1.)
-0. 去除前幾行資料及井字號行的資料，只留下chrI 90 91 0.557 ... 以下的資料。
-1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br />
+__Requirement: Do not use package.__(7/9,可以0~3點都完成最好)
+0. 去除前幾行資料及井字號行的資料，只留下chrI 90 91 0.557 ... 以下的資料。 => 一份code+一份輸出
+1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br /> =>第二份code,讀前面的輸出檔
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
 - exercise2-iteration practice
