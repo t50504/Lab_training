@@ -14,6 +14,7 @@
     -  100-90 A,89-70 B,69-50 C,其他 invalid 。沒有限制要用幾個函式。
 - chapterB
     - global&local variable
+      補充:在python當中，全域變數若只在函式外宣告，並且在函式外不用特地打global,則函式內只能讀取此變數，不能更改值，若要函式內可更改值，在函式內要宣告此變數global。
     - read&write file (date:7/6)
     - basic data structure -- tuple,list,dictionary
     - continue&break
