@@ -21,7 +21,7 @@
     - error handle(try,except) 
     - time and memory management (date:7/9)
 - [python numpy&pandas套件教學](https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/)
-- chapterC:pandas
+- chapterC:pandas 
     - package install and usage
     - read csv & introduce dataframe
     - select column & row
@@ -38,7 +38,7 @@ __Requirement: Do not use package.__(7/9,可以0~3點都完成最好)
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
 - exercise2
 1. 從@cosbi ../class_data中拿取資料到自己資料夾、解壓縮。
-2. 擴大成搜尋全部檔案(22個)並輸出成如檔案格式: [example link](https://drive.google.com/file/d/1vnjT0ApYmO77lkwR8wa45LDjKZjdNGKs/view?usp=sharing)
+2. 擴大成搜尋全部檔案(22個)並輸出成如檔案格式: 
 - exercise3-iteration practice
 1. 讀CSV，欄位篩選、丟棄等等
 2. 迴圈運算，題目待設計。
