@@ -25,6 +25,7 @@
     - package install and usage
     - read csv & introduce dataframe
     - select column & row
+    - fill none
 - chapterD:numpy
     - numpy array 
 
@@ -35,6 +36,9 @@ __Requirement: Do not use package.__(7/9,可以0~3點都完成最好)
 1. 執行程式找出包含在chrI 11300-11500區段內的chip-chip ratio<br /> =>第二份code,讀前面的輸出檔
 2. 找出包含在chrXI 168000-168600區段內的chip-chip ratio<br />
 3. 將程式包裝成可供使用者輸入chr 跟start pos,end pos,並將搜尋結果印出<br />
-- exercise2-iteration practice
+- exercise2
+1. 從@cosbi ../class_data中拿取資料到自己資料夾、解壓縮。
+2. 擴大成搜尋全部檔案(22個)並輸出成如檔案格式:(下課後補上連結)
+- exercise3-iteration practice
 1. 讀CSV，欄位篩選、丟棄等等
 2. 迴圈運算，題目待設計。
