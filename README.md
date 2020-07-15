@@ -14,4 +14,4 @@
 - Can practice program skill on leetcode.
 # Schedule
 - 7/13,14:00~16:00 : review exercise1, python pandas usage, HW: class1-exercise1,2
-- 7/16,14:00~16:00 : review exercise1,2
+- 7/16,14:00~16:00,上課教室二樓92277  : review exercise1,2
