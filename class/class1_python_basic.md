@@ -40,5 +40,6 @@ __Requirement: Do not use package.__(7/9,可以0~3點都完成最好)
 1. 從@cosbi ../class_data中拿取資料到自己資料夾、解壓縮。
 2. 擴大成搜尋全部檔案(22個)並輸出成如檔案格式: [file line](https://drive.google.com/file/d/1QhZeocW-lm3ittobbDkxJzVQBSCtfUHm/view?usp=sharing)
 - exercise3-iteration practice
+[file line](https://drive.google.com/file/d/1rgvcECZYZqb4BGOL5pR1asQ1JudwFMJ2/view?usp=sharing)
 1. 讀CSV，欄位篩選、丟棄等等
 2. 迴圈運算，題目待設計。
