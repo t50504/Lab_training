@@ -1,7 +1,7 @@
 ## web structure overview
 
 - ref: https://www.youtube.com/watch?v=W40mDCqWyYo
-<img src='https://raw.githubusercontent.com/t50504/Lab_training/master/image/django_frame.jpg'>
+<img src='https://raw.githubusercontent.com/t50504/Lab_training/master/image/django_frame2.PNG'>
 
 ## front end
 - Nice tutorial: w3school
