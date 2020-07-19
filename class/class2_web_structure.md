@@ -5,11 +5,13 @@
 
 ## front end
 - Nice tutorial: w3school
+- Good test tool: codepen
 ### HTML
 - 網頁的骨幹，所有的網頁元素都是由基本的html元素構成，是一種語法可供瀏覽器解析，詳細教學請啃 HTML Tutorial，'至少'看到HTML Forms的部分。
+- 重點:introduction,elements,styles,comments,css,link,image,table,class,id,iframes,forms.
 ### CSS
 - 網頁的外貌，用來排版、裝飾HTML元素，詳細教學請啃 CSS Tutorial，'至少'看到CSS Navigation Bar的部分。 並請額外看Flexbox部分，是比較新的網頁CSS排版技術。
-
+- 重點:introduction,syntax,selectors,how to,margin&padding,height&width,position,flexbox.
 - exercise1 刻出自我介紹的靜態網頁，須包含三張照片並排、照片的背景區要淺灰色(隨意，不用自己的照片)，並且內容條列式、加註重點，並且附上自己臉書的連結。所有內容須置中。
 
 - 額外補充1:牽涉到設計的部分很需要美感，所以大多工程師都會先選擇套用Bootstrap模板，再修改細部，有空可以練習怎麼使用bootstrap。
