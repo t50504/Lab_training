@@ -13,7 +13,8 @@
 - Learn to use git or github.[推薦教學網誌](http://blog.gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/)
 - Can practice program skill on leetcode.
 # Schedule
-- lab server : 140.116.215.226 port 32204 
+- lab server : 140.116.215.226 port 32204
+- recommend editor: vscode
 - 7/13,14:00~16:00 : review exercise1, python pandas usage, HW: class1-exercise1,2
 - 7/16,14:00~16:00,上課教室二樓92277  : review exercise1,2
 - 7/20,14:00~16:00,八樓原上課教室 : review exercise2,3 , web structure , front-end .
