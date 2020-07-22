@@ -18,3 +18,4 @@
 - 7/13,14:00~16:00 : review exercise1, python pandas usage, HW: class1-exercise1,2
 - 7/16,14:00~16:00,上課教室二樓92277  : review exercise1,2
 - 7/20,14:00~16:00,四樓92491 : review exercise2,3 , web structure , front-end .
+- 7/23,14:00~16:00,八樓教室: review exercise, javascript, new python h.w. assign.

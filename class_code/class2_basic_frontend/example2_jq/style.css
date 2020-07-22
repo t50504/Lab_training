@@ -1,0 +1,25 @@
+.content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.test1{
+  background-color:yellow;
+}
+#article{
+  display:none;
+}
+.test2{
+  width:150vh;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.box{
+  width:30vh;
+  border:solid 1px black; 
+  border-radius:10px;
+  text-align:center;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}

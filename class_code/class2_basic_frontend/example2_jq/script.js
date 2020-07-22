@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#article1").slideToggle();
+  });
+  $("#article2").hover(function(){
+    $("#article2").css("background-color","#5599FF");
+    $("#article2").css("color","white");
+    },function(){
+    $("#article2").css("background-color","pink");
+    $("#article2").css("color","black");
+  });
+});
