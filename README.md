@@ -20,3 +20,6 @@
 - 7/20,14:00~16:00,四樓92491 : review exercise2,3 , web structure , front-end .
 - 7/23,14:00~16:00,八樓教室: review exercise, javascript, new python h.w. assign.
 - 7/30,14:00~16:00,八樓教室: Django introduce and structure-app,setting,url,views,templates ; python assign2
+- 8/03,SAME: Django request and response(form basic method); python assign part2, django practice
+- 8/06,SAME: Django request and response(ajax method); review homework. 
+- 
