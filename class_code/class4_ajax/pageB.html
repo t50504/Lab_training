@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{% static 'js/pageB.js' %}"></script>
+
+    <!-- <link rel='stylesheet' href="{% static 'css/pageA.css' %}"> -->
+</head>
+
+<body>
+
+<p>welcome your second web</p>
+{{ content }}
+
+<p>use get method</p>
+<form action="" method="get" id='form1'>
+    {% csrf_token %}
+    id:<input type="text" name='id'>
+    <input type="submit" name="submit1">
+
+</form>
+
+<p>use post method</p>
+<form action="" method="post" id='form2'>
+    
+    name:<input type="text" name='Name'>
+    gender:<input type="checkbox" name='gender' value='male'>
+    <input type="submit" name="submit2">
+
+</form>
+<p>answer:</p>
+{{ name }}
+{{ gender }}
+
+<p>------------Below is NONajax v.s. ajax sample-------------</p>
+<h3>NONajax</h3>
+<form action="" method="post" id='form3'>
+    
+    number1:<input type="text" name='arg01' size='5'>
+    number2:<input type="text" name='arg02' size='5'>
+    <input type="submit" name="submit3">
+
+</form>
+<p>result:{{ result }}</p>
+
+<h3>ajax</h3>
+請輸入 10~50之間的數字
+number1:<input type='text' id='arg1' size='5'>
+number2:<input type='text' id='arg2' size='5'>
+<button id='calculate'>Sum</button>
+<p id='ajax-ans'></p>
+
+
+</body>
+
+
+
